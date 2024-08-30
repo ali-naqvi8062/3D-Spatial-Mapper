@@ -13,6 +13,7 @@ The 3D Spatial Mapper is an innovative device designed for accurate spatial meas
 The device performs precise 3D mapping by rotating the ToF sensor and capturing distance data at each step. The microcontroller processes this data and transmits it to a Python script, which visualizes the environment in real-time. This setup provides a cost-effective alternative to commercial LiDAR systems, suitable for use in autonomous robotics and spatial analysis.
 
 ## Block Diagram ## 
+<img width="537" alt="block" src="https://github.com/user-attachments/assets/7e8fbde7-be8d-46fb-a059-c449e5402257">
 
 ## Usage ##
 - Software Requirements: Python 3.6+, with pyserial, numpy, and open3D libraries.
