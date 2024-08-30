@@ -9,15 +9,15 @@ The 3D Spatial Mapper is an innovative device designed for accurate spatial meas
 - Stepper Motor Controller: Rotates the ToF sensor to capture comprehensive spatial data.
 - Data Visualization: Uses Open3D and Python to create 3D models from the captured data, ideal for applications like indoor navigation and layout mapping.
 
+## Circuit Schematic ## 
+<img width="537" alt="block" src="https://github.com/user-attachments/assets/7e8fbde7-be8d-46fb-a059-c449e5402257">
+
 ## Functionality ##
 The device performs precise 3D mapping by rotating the ToF sensor and capturing distance data at each step. The microcontroller processes this data and transmits it to a Python script, which visualizes the environment in real-time. This setup provides a cost-effective alternative to commercial LiDAR systems, suitable for use in autonomous robotics and spatial analysis.
 
-## Block Diagram ## 
-<img width="537" alt="block" src="https://github.com/user-attachments/assets/7e8fbde7-be8d-46fb-a059-c449e5402257">
-
 ## Usage ##
 - Software Requirements: Python 3.6+, with pyserial, numpy, and open3D libraries.
-- Hardware Setup: Assemble the microcontroller, stepper motor, and ToF sensor using the block diagram. Connect the microcontroller to a PC via USB for data transmission.
+- Hardware Setup: Assemble the microcontroller, stepper motor, and ToF sensor using the circuit schematic. Connect the microcontroller to a PC via USB for data transmission.
 - Operation: Run the provided Python script to visualize the 3D mapping data. Adjust parameters like rotation angle and x-axis displacement as needed.
 
 ## Limitations ##
